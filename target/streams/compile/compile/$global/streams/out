@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Original_POO/GameEngine.scala:12:42: type Strategy is not a member of package TemplateMethod[0m
+[0m[[0m[31merror[0m] [0m[0mobject GameEngine extends TemplateMethod.Strategy{[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Original_POO/GameEngine.scala:48:12: not found: value shouldRevive[0m
+[0m[[0m[31merror[0m] [0m[0m        if(shouldRevive(i, j)) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Original_POO/GameEngine.scala:51:19: not found: value shouldKeepAlive[0m
+[0m[[0m[31merror[0m] [0m[0m        else if((!shouldKeepAlive(i, j)) && cells(i)(j).isAlive) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Strategy/CellsRepository.scala:3:8: not found: object GoL_Stategy[0m
+[0m[[0m[31merror[0m] [0m[0mimport GoL_Stategy.View[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Strategy/GameController.scala:3:8: not found: object GoL_Stategy[0m
+[0m[[0m[31merror[0m] [0m[0mimport GoL_Stategy.View[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Strategy/OriginalStrategy.scala:5:33: not found: type DerivationStrategy[0m
+[0m[[0m[31merror[0m] [0m[0mobject OriginalStrategy extends DerivationStrategy {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/les-04/Documents/GoL/src/main/scala/Strategy/View.scala:3:8: not found: object GoL_Strategy[0m
+[0m[[0m[31merror[0m] [0m[0mimport GoL_Strategy.{CellsRepository, GameController, GameEngine, Main}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

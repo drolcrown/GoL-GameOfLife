@@ -1,0 +1,1 @@
+resolvers += Opts.resolver.sonatypeSnapshots
