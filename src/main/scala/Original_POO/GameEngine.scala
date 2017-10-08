@@ -11,7 +11,7 @@ import scala.annotation.tailrec
  * 
  * @author Breno Xavier (baseado na implementacao Java de rbonifacio@unb.br
  */
-class GameEngine {
+object GameEngine {
   
   val height = Main.height
   val width = Main.width

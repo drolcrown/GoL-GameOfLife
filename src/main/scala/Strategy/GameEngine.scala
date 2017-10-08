@@ -1,6 +1,6 @@
 package Strategy
 
-import Original_POO.{Cell, Main}
+import Original_POO.{Cell, Main, Statistics}
 
 import scala.collection.mutable.ListBuffer
 

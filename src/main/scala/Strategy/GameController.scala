@@ -1,6 +1,7 @@
 package Strategy
 
 import Original_POO.{GameEngine, Statistics}
+import View.GameView
 
 /**
  * Relaciona o componente View com o componente Model. 
@@ -14,10 +15,8 @@ object GameController {
   }
   
   def halt() {
-    //oops, nao muito legal fazer sysout na classe Controller
-    println("\n \n")
     Statistics.display
-    System.exit(0)
+    //System.exit(0)
   }
 
   def makeCellAlive(i: Int, j: Int) {

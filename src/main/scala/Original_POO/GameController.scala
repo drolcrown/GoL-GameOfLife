@@ -5,7 +5,7 @@ package Original_POO
  * 
  * @author Breno Xavier (baseado na implementacao Java de rbonifacio@unb.br
  */
-object GameController {
+object GameController{
   
   def start {
     GameView.update

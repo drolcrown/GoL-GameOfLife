@@ -1,15 +1,16 @@
-package Original_POO
+package View
 
-import scala.collection.mutable.ListBuffer
+import Strategy.GameController
 
 /**
  * Programa principal do GoL.
+ *
  * @author Breno Xavier (baseado na implementacao Java de rbonifacio@unb.br
  */
 object Main {
   
-  val height = 31
-  val width = 16
+  val height = 20
+  val width = 32
   
   def main(args: Array[String]){
     GameController.start

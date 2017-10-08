@@ -1,19 +1,21 @@
+
 import scalafx.application.JFXApp
 import scalafx.scene.Scene
+import scalafx.scene.control.{Button, Menu, MenuBar}
+import scalafx.scene.paint.Color
 import scalafx.scene.shape.Rectangle
 
 object HelloUI extends JFXApp{
   stage = new JFXApp.PrimaryStage {
-    title.value = "Hello Stage"
-    width = 600
-    height = 450
-    scene = new Scene {
-      content = new Rectangle {
-        x = 25
-        y = 40
-        width = 100
-        height = 100
-      }
+    title.value = "GAME OF LIFE - GoL"
+    scene = new Scene(800, 800) {
+      val button = new Button("Click me")
+      //button.layoutX = 100
+     // button.layoutY = 100
+      val rect = Rectangle (400, 200, 20, 20)
+      val rect2 = Rectangle (600, 200, 20, 20)
+    rect.fill = Color.Black
+    content = List(button, rect, rect2)
     }
   }
 }
